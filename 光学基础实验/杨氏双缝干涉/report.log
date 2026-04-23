@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.11.19)  4 APR 2026 16:28
+This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.11.19)  23 APR 2026 10:49
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -880,6 +880,9 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 [7]
 
 [8]
+File: ./实验照片/实验数据（含签名）.jpg Graphic file (type bmp)
+<./实验照片/实验数据（含签名）.jpg>
+
 
 [9] (./report.aux)
  ***********
@@ -887,13 +890,13 @@ LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2022/07/14>
  ***********
 Package rerunfilecheck Info: File `report.out' has not changed.
-(rerunfilecheck)             Checksum: 6EEB91C02CC22F58CC91C69EA4A80CA6;2207.
+(rerunfilecheck)             Checksum: EEB4C159354AD636751DC419893CC95D;2313.
  ) 
 Here is how much of TeX's memory you used:
- 17758 strings out of 473832
- 376265 string characters out of 5733157
+ 17769 strings out of 473832
+ 376524 string characters out of 5733157
  793437 words of memory out of 5000000
- 40536 multiletter control sequences out of 15000+600000
+ 40546 multiletter control sequences out of 15000+600000
  568675 words of font info for 113 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  93i,12n,111p,345b,540s stack positions out of 10000i,1000n,20000p,200000b,200000s

@@ -1,0 +1,150 @@
+\documentclass[12pt, a4paper]{article}
+\usepackage[UTF8, zihao=-4]{ctex}
+\usepackage[top=2.5cm, bottom=2.5cm, left=2.8cm, right=2.8cm]{geometry}
+\usepackage{fontspec}
+\setmainfont{Times New Roman}
+\usepackage{setspace}
+\setstretch{1.5}
+\usepackage{booktabs}
+\usepackage{array}
+\usepackage{makecell}
+\usepackage{multirow}
+\usepackage{adjustbox}
+\usepackage{amsmath, amssymb}
+\usepackage{fancyhdr}
+\usepackage{float}
+\setlength{\headheight}{15pt}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[C]{\small 实验数据记录单}
+\fancyfoot[C]{\small\thepage}
+
+\begin{document}
+
+% ===== 封面信息 =====
+\begin{center}
+  {\heiti\zihao{3} 薄透镜焦距三种测量方法 \\ 实验数据记录单} \\[1cm]
+  \begin{tabular}{llll}
+    姓\quad 名：& \underline{\hspace{4cm}} &
+    学\quad 号：& \underline{\hspace{4cm}} \\[0.5cm]
+    班\quad 级：& \underline{\hspace{4cm}} &
+    实验日期：  & \underline{\hspace{4cm}} \\[0.5cm]
+    指导教师：  & \underline{\hspace{4cm}} &
+    教师签名：  & \underline{\hspace{4cm}} \\
+  \end{tabular}
+\end{center}
+\vspace{0.8cm}
+
+% ===== 表1：自准直法 =====
+\subsection*{表 1 \quad 自准直法测量薄透镜焦距记录表}
+{\footnotesize 仪器：F形LED光源、待测透镜（$\Phi50$，标称焦距 $f=200\,\text{mm}$）、平面反射镜；测量公式：$f = a_1 - a_2$}
+
+\begin{table}[H]
+  \centering
+  \begin{adjustbox}{max width=\textwidth}
+    \begin{tabular}{>{\centering\arraybackslash}m{2cm}
+                    >{\centering\arraybackslash}m{4cm}
+                    >{\centering\arraybackslash}m{4cm}
+                    >{\centering\arraybackslash}m{4cm}}
+      \toprule
+      测量次数 & 目标板位置 $a_1$ / mm & 被测透镜位置 $a_2$ / mm & 透镜焦距 $f$ / mm \\
+      \midrule
+      1 & & & \\[0.6cm]
+      2 & & & \\[0.6cm]
+      3 & & & \\[0.6cm]
+      \midrule
+      \multicolumn{3}{c}{焦距平均值 $\bar{f}$ / mm} & \\[0.6cm]
+      \bottomrule
+    \end{tabular}
+  \end{adjustbox}
+\end{table}
+
+\vspace{0.5cm}
+
+% ===== 表2：二次成像法 =====
+\subsection*{表 2 \quad 二次成像法（贝塞尔法）测量薄透镜焦距记录表}
+{\footnotesize 仪器：F形LED光源、待测透镜（$\Phi50$，标称焦距 $f=150\,\text{mm}$）、白屏；物屏距 $l \geq 600\,\text{mm}$；\\
+测量公式：$d = a_2 - a_1$，\quad $f' = \dfrac{l^2 - d^2}{4l}$}
+
+\begin{table}[H]
+  \centering
+  \begin{adjustbox}{max width=\textwidth}
+    \begin{tabular}{>{\centering\arraybackslash}m{1.8cm}
+                    >{\centering\arraybackslash}m{3.5cm}
+                    >{\centering\arraybackslash}m{3.5cm}
+                    >{\centering\arraybackslash}m{2.5cm}
+                    >{\centering\arraybackslash}m{2.5cm}
+                    >{\centering\arraybackslash}m{2.8cm}}
+      \toprule
+      测量次数 &
+      \makecell{第一次清晰\\成像位置\\$a_1$ / mm} &
+      \makecell{第二次清晰\\成像位置\\$a_2$ / mm} &
+      \makecell{两次位置差\\$d = a_2 - a_1$\\/ mm} &
+      \makecell{物屏距\\$l$ / mm} &
+      \makecell{透镜焦距\\$f'$ / mm} \\
+      \midrule
+      1 & & & & & \\[0.8cm]
+      2 & & & & & \\[0.8cm]
+      3 & & & & & \\[0.8cm]
+      \midrule
+      \multicolumn{5}{c}{焦距平均值 $\bar{f}'$ / mm} & \\[0.6cm]
+      \bottomrule
+    \end{tabular}
+  \end{adjustbox}
+\end{table}
+
+\vspace{0.5cm}
+
+% ===== 表3：焦距仪法 =====
+\subsection*{表 3 \quad 平行光管法（焦距仪）测量薄透镜焦距记录表}
+{\footnotesize 仪器：LED光源、平行光管（$f_o'=400\,\text{mm}$，玻罗板最大线间距 $y=4\,\text{mm}$）、CMOS相机（像元 $2.9\,\mu\text{m}$）；\\
+测量公式：$f_x' = \dfrac{y'}{y} \times f_o'$，软件直接输出焦距值（单位 mm）}
+
+\begin{table}[H]
+  \centering
+  \begin{adjustbox}{max width=\textwidth}
+    \begin{tabular}{>{\centering\arraybackslash}m{4.5cm}
+                    >{\centering\arraybackslash}m{2.5cm}
+                    >{\centering\arraybackslash}m{2.5cm}
+                    >{\centering\arraybackslash}m{2.5cm}
+                    >{\centering\arraybackslash}m{3cm}}
+      \toprule
+      透镜 & 第1次 / mm & 第2次 / mm & 第3次 / mm & 平均值 / mm \\
+      \midrule
+      透镜1（标称 $200\,\text{mm}$） & & & & \\[0.8cm]
+      透镜2（标称 $150\,\text{mm}$） & & & & \\[0.8cm]
+      \bottomrule
+    \end{tabular}
+  \end{adjustbox}
+\end{table}
+
+\vspace{1cm}
+
+% ===== 计算与结论区域 =====
+\subsection*{计算与结论}
+
+\noindent 三种方法测量焦距（$f = 200\,\text{mm}$ 透镜）汇总：
+
+\vspace{0.3cm}
+\begin{table}[H]
+  \centering
+  \begin{tabular}{>{\centering\arraybackslash}m{5cm}
+                  >{\centering\arraybackslash}m{4cm}
+                  >{\centering\arraybackslash}m{4cm}}
+    \toprule
+    方法 & 平均焦距 $\bar{f}$ / mm & 与标称值偏差 / \% \\
+    \midrule
+    自准直法 & & \\[0.6cm]
+    二次成像法（贝塞尔法）& & \\[0.6cm]
+    平行光管法 & & \\[0.6cm]
+    \bottomrule
+  \end{tabular}
+\end{table}
+
+\vspace{2cm}
+
+\noindent\textbf{实验结论：}
+
+\vspace{4cm}
+
+\end{document}

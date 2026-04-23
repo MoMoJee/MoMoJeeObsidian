@@ -16,3 +16,4 @@
 \contentsline {subsubsection}{\numberline {5.4.3}波长$\lambda $的合成不确定度}{7}{subsubsection.5.4.3}%
 \contentsline {section}{\numberline {6}误差分析}{7}{section.6}%
 \contentsline {section}{\numberline {7}思考题}{8}{section.7}%
+\contentsline {section}{\numberline {A}原始数据记录}{9}{appendix.A}%

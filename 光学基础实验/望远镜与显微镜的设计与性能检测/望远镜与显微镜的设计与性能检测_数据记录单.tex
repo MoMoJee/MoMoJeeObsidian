@@ -1,0 +1,151 @@
+\documentclass[12pt, a4paper]{article}
+\usepackage[UTF8, zihao=-4]{ctex}
+\usepackage[top=2.5cm, bottom=2.5cm, left=2.8cm, right=2.8cm]{geometry}
+\usepackage{fontspec}
+\setmainfont{Times New Roman}
+\usepackage{setspace}
+\setstretch{1.5}
+\usepackage{booktabs}
+\usepackage{array}
+\usepackage{makecell}
+\usepackage{multirow}
+\usepackage{adjustbox}
+\usepackage{amsmath, amssymb}
+\usepackage{fancyhdr}
+\usepackage{float}
+\setlength{\headheight}{15pt}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[C]{\small 实验数据记录单}
+\fancyfoot[C]{\small\thepage}
+
+\begin{document}
+
+% ===== 封面信息 =====
+\begin{center}
+  {\heiti\zihao{3} 望远镜与显微镜的设计与性能检测 \\ 实验数据记录单} \\[1cm]
+  \begin{tabular}{llll}
+    姓\quad 名：& \underline{\hspace{4cm}} &
+    学\quad 号：& \underline{\hspace{4cm}} \\[0.5cm]
+    班\quad 级：& \underline{\hspace{4cm}} &
+    实验日期：  & \underline{\hspace{4cm}} \\[0.5cm]
+    指导教师：  & \underline{\hspace{4cm}} &
+    教师签名：  & \underline{\hspace{4cm}} \\
+  \end{tabular}
+\end{center}
+\vspace{0.5cm}
+
+\hrule
+\vspace{0.5cm}
+
+% ===== Part 1：望远镜 =====
+\section*{一、望远镜实验}
+
+\subsection*{表 1-1 \quad 望远镜视角放大率测量（物像共面法）}
+
+\noindent{\footnotesize
+  仪器参数：物镜 $f_o' = 150\,\text{mm}$，目镜 $f_e' = 30\,\text{mm}$；
+  像格数固定 $n = $\underline{\hspace{1cm}}（格）
+}
+
+\vspace{0.3cm}
+
+\begin{table}[H]
+  \centering
+  \begin{adjustbox}{max width=\textwidth}
+    \begin{tabular}{ccccc}
+      \toprule
+      测量序号 & 物格数 $m$ & 像格数 $n$ & 放大率实验值 $\Gamma_i = m/n$ & 备注 \\
+      \midrule
+      1 & & & & \\[0.4cm]
+      2 & & & & \\[0.4cm]
+      3 & & & & \\[0.4cm]
+      \midrule
+      平均值 & \multicolumn{2}{c}{——} & $\bar{\Gamma}_e = $ & \\
+      \bottomrule
+    \end{tabular}
+  \end{adjustbox}
+\end{table}
+
+\vspace{0.3cm}
+
+\subsection*{表 1-2 \quad 距离测量与理论值计算}
+
+\begin{table}[H]
+  \centering
+  \begin{adjustbox}{max width=\textwidth}
+    \begin{tabular}{p{6cm}p{3cm}p{5cm}}
+      \toprule
+      测量量 & 数值 & 说明 \\
+      \midrule
+      物距 $L_1$（标尺到物镜）& \hspace{1.5cm} mm & 需 $L_1 > 300\,\text{mm}$ \\[0.4cm]
+      像距 $L$（目镜到标尺像面）& \hspace{1.5cm} mm & \\[0.4cm]
+      \midrule
+      理论放大率 $\Gamma$（公式计算）& & \\[0.6cm]
+      相对偏差 $E$ & & $E = \dfrac{\bar{\Gamma}_e - \Gamma}{\Gamma} \times 100\%$ \\[0.6cm]
+      \bottomrule
+    \end{tabular}
+  \end{adjustbox}
+\end{table}
+
+\noindent{\small 理论值计算过程（写出公式代入）：}
+\vspace{2.5cm}
+
+\newpage
+
+% ===== Part 2：显微镜 =====
+\section*{二、显微镜实验}
+
+\subsection*{表 2-1 \quad 显微镜视角放大率测量（分束镜比较法）}
+
+\noindent{\footnotesize
+  仪器参数：物镜 $f_o' = 75\,\text{mm}$，目镜 $f_e' = 30\,\text{mm}$，明视距离 $D = 250\,\text{mm}$；\\
+  被测对象：4 号条纹，实际黑条宽度 $d = 0.25\,\text{mm}$
+}
+
+\vspace{0.3cm}
+
+\begin{table}[H]
+  \centering
+  \begin{adjustbox}{max width=\textwidth}
+    \begin{tabular}{cccc}
+      \toprule
+      测量序号（4 号） & 条纹实际宽度 $d$/mm & 条纹像宽度 $d'$/mm & 放大率实验值 $\Gamma_{\text{实验}} = d'/d$ \\
+      \midrule
+      1 & 0.25 & & \\[0.4cm]
+      2 & 0.25 & & \\[0.4cm]
+      3 & 0.25 & & \\[0.4cm]
+      \midrule
+      平均值 & 0.25 & $\bar{d}' = $ & $\bar{\Gamma}_{\text{实验}} = $ \\
+      \bottomrule
+    \end{tabular}
+  \end{adjustbox}
+\end{table}
+
+\vspace{0.3cm}
+
+\subsection*{表 2-2 \quad 距离测量与理论放大率计算}
+
+\begin{table}[H]
+  \centering
+  \begin{adjustbox}{max width=\textwidth}
+    \begin{tabular}{p{7cm}p{3cm}p{4cm}}
+      \toprule
+      测量量 & 数值 & 说明 \\
+      \midrule
+      物距 $l_1$（分辨率板到物镜）& \hspace{1.5cm} mm & $75 < l_1 < 150\,\text{mm}$ \\[0.4cm]
+      物镜像距 $q_o$（由成像公式计算）& \hspace{1.5cm} mm & $\dfrac{1}{q_o} = \dfrac{1}{f_o'} + \dfrac{1}{l_1}$ \\[0.6cm]
+      物镜放大率 $\beta_o = q_o / l_1$ & & \\[0.4cm]
+      目镜放大率 $\Gamma_e = D/f_e'$ & & $= 250/30$ \\[0.4cm]
+      \midrule
+      理论总放大率 $\Gamma = \beta_o \times \Gamma_e$ & & \\[0.4cm]
+      相对偏差 $E$ & & $E = \dfrac{\bar{\Gamma}_{\text{实验}} - \Gamma}{\Gamma} \times 100\%$ \\[0.6cm]
+      \bottomrule
+    \end{tabular}
+  \end{adjustbox}
+\end{table}
+
+\noindent{\small 理论值计算过程（写出公式代入）：}
+\vspace{3cm}
+
+\end{document}

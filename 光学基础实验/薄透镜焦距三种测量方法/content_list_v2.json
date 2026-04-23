@@ -1,0 +1,2095 @@
+[
+    [
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "实验 3 薄透镜焦距三种测量方法"
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                314,
+                93,
+                678,
+                112
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "【实验目的】"
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                154,
+                148,
+                250,
+                162
+            ]
+        },
+        {
+            "type": "list",
+            "content": {
+                "list_type": "text_list",
+                "list_items": [
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "1. 学会调节光学系统共轴。"
+                            }
+                        ]
+                    },
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "2. 掌握薄透镜焦距的常用测定方法。"
+                            }
+                        ]
+                    },
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "3. 研究透镜成像的规律。"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "bbox": [
+                181,
+                171,
+                467,
+                233
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "测量方法一：自准直法测薄透镜焦距实验"
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                282,
+                269,
+                712,
+                288
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "自准直法是光学实验中常用的方法。在光学信息处理中，多使用平行光束，而自准直法可作为检测平行光的手段之一。同时在工程应用中，自准直法还可简单快速地测量透镜焦距。"
+                    }
+                ]
+            },
+            "bbox": [
+                147,
+                300,
+                847,
+                338
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "【实验仪器】"
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                152,
+                370,
+                250,
+                386
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "“F”形状LED光源、待测透镜（直径 "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "5 0 \\mathrm { m m }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "，焦距 "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "2 0 0 \\mathrm { m m }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "）、反射镜。"
+                    }
+                ]
+            },
+            "bbox": [
+                152,
+                394,
+                697,
+                409
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "【实验原理】"
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                152,
+                439,
+                250,
+                455
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "如图1所示，若物体 AB正好处在透镜L的前焦面处，那么物体上各点发出的光经过透镜后，变成不同方向的平行光，经透镜后方的反射镜 M 把平行光反射回来，反射光经过透镜后，成一倒立的与原物大小相同的实像 "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "A ^ { \\prime } B ^ { \\prime }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "，像 "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "A ^ { \\prime } B ^ { \\prime }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "位于原物平面处。即成像于该透镜的前焦面上。此时物与透镜之间的距离就是透镜的焦距 "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "f"
+                    },
+                    {
+                        "type": "text",
+                        "content": "，它的大小可用刻度尺直接测量出来。"
+                    }
+                ]
+            },
+            "bbox": [
+                144,
+                463,
+                847,
+                583
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/5bd946e29cc0ed8bfbfc30f7c5d75507c460243a085f4207594b597d5bd533a5.jpg"
+                },
+                "image_caption": [
+                    {
+                        "type": "text",
+                        "content": "图 1 自准直法测会聚透镜焦距原理图"
+                    }
+                ],
+                "image_footnote": []
+            },
+            "bbox": [
+                354,
+                595,
+                621,
+                768
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "【实验内容】"
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                152,
+                822,
+                250,
+                837
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "1、光路搭建与调试"
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                147,
+                845,
+                302,
+                860
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "参照图2 搭建自准直测量透镜焦距光路，自左向右依次为“F”形状LED光源，待测透镜（直径 "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "5 0 \\mathrm { m m }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "，焦距 "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "2 0 0 \\mathrm { m m }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "），反射镜。"
+                    }
+                ]
+            },
+            "bbox": [
+                144,
+                869,
+                847,
+                906
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "1 "
+                    }
+                ]
+            },
+            "bbox": [
+                492,
+                916,
+                502,
+                926
+            ]
+        }
+    ],
+    [
+        {
+            "type": "list",
+            "content": {
+                "list_type": "text_list",
+                "list_items": [
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "（1）安装“F”形状 LED光源在导轨上。"
+                            }
+                        ]
+                    },
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "（2）安装待测透镜。调整透镜位置让“F形”光斑入射到待测透镜中心。"
+                            }
+                        ]
+                    },
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "（3）安装反射镜。在紧挨待测透镜后安装反射镜，调整反射镜高度使待测透镜出射光斑打在反射镜中心，并调整反射镜的反射角度，让反射的光斑与目标物的光斑在同一高度。"
+                            }
+                        ]
+                    },
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "（4）同时移动反射镜和待测透镜，直至在目标板上获得镂空图案的倒立实像始终最清晰且与物等大（形成长方形外轮廓）。"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "bbox": [
+                144,
+                87,
+                847,
+                218
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/53a8c4594452def1d39a8d3faceaa12119cfe9b571d119b641d416d94b4d930d.jpg"
+                },
+                "image_caption": [
+                    {
+                        "type": "text",
+                        "content": "图 2 自准直光路实验图"
+                    }
+                ],
+                "image_footnote": []
+            },
+            "bbox": [
+                275,
+                225,
+                757,
+                350
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "2、结果记录及数据处理"
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                144,
+                403,
+                337,
+                418
+            ]
+        },
+        {
+            "type": "list",
+            "content": {
+                "list_type": "text_list",
+                "list_items": [
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "（1）用尺子分别测量出目标板和被测透镜的位置 a1、 "
+                            },
+                            {
+                                "type": "equation_inline",
+                                "content": "a _ { 2 }"
+                            },
+                            {
+                                "type": "text",
+                                "content": "，分别填入表 1，并利用 "
+                            },
+                            {
+                                "type": "equation_inline",
+                                "content": "f { = } a _ { 1 } { - } a _ { 2 }"
+                            },
+                            {
+                                "type": "text",
+                                "content": "计算透镜焦距。"
+                            }
+                        ]
+                    },
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "（2）重复3次实验，计算焦距，取平均值。"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "bbox": [
+                144,
+                426,
+                847,
+                487
+            ]
+        },
+        {
+            "type": "table",
+            "content": {
+                "image_source": {
+                    "path": "images/573006d595e062e3fc9f4795d79cb491bd2351c81f9df1eab87c8c2265ddd078.jpg"
+                },
+                "table_caption": [
+                    {
+                        "type": "text",
+                        "content": "表1自准直测量透镜焦距记录表"
+                    }
+                ],
+                "table_footnote": [],
+                "html": "<table><tr><td>测量次数</td><td>目标板位置a1</td><td>被测透镜位置a2</td><td>透镜焦距f</td></tr><tr><td>1</td><td></td><td></td><td></td></tr><tr><td>2</td><td></td><td></td><td></td></tr><tr><td>3</td><td></td><td></td><td></td></tr><tr><td colspan=\"3\">焦距平均值</td><td></td></tr></table>",
+                "table_type": "complex_table",
+                "table_nest_level": 1
+            },
+            "bbox": [
+                147,
+                537,
+                868,
+                659
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "2 "
+                    }
+                ]
+            },
+            "bbox": [
+                492,
+                916,
+                502,
+                926
+            ]
+        }
+    ],
+    [
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "测量方法二：二成像法测薄透镜焦距实验"
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                282,
+                93,
+                712,
+                112
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "二次成像法测量焦距是通过两次成像，测量出相关数据，通过成像公式计算出透镜焦距。"
+                    }
+                ]
+            },
+            "bbox": [
+                181,
+                124,
+                847,
+                140
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "【实验仪器】"
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                152,
+                168,
+                250,
+                183
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "“F”形状 LED 光源、待测透镜（直径 "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "5 0 \\mathrm { m m }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "，焦距 "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "2 0 0 \\mathrm { m m }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "）、白屏。"
+                    }
+                ]
+            },
+            "bbox": [
+                152,
+                187,
+                680,
+                203
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "【实验原理】"
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                152,
+                225,
+                250,
+                241
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "由透镜两次成像求焦距方法如下："
+                    }
+                ]
+            },
+            "bbox": [
+                181,
+                250,
+                440,
+                265
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/cadc91086c8355ab655ac4a9f435530095076a2197ba5276d3af1f965c94812a.jpg"
+                },
+                "image_caption": [
+                    {
+                        "type": "text",
+                        "content": "图 1 透镜两次成像原理图"
+                    }
+                ],
+                "image_footnote": []
+            },
+            "bbox": [
+                218,
+                274,
+                779,
+                418
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "当物体与白屏的距离 "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "l { > } 4 f"
+                    },
+                    {
+                        "type": "text",
+                        "content": "时，保持其相对位置不变，则会聚透镜置于物体与白屏之间，可以找到两个位置，在白屏上均能看到清晰像。如图 1所示，透镜两位置之间的距离绝对值为 "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "d"
+                    },
+                    {
+                        "type": "text",
+                        "content": "，运用物像的共扼对称性质，容易证明"
+                    }
+                ]
+            },
+            "bbox": [
+                144,
+                445,
+                848,
+                506
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "f ^ {\\prime} = \\frac {l ^ {2} - d ^ {2}}{4 l} \\tag {1}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/0834db887b53316a05745e1b7ff283b8e4d62718778c924c9a429bb0e807a30b.jpg"
+                }
+            },
+            "bbox": [
+                428,
+                520,
+                840,
+                556
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "上式表明：只要测出 "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "d"
+                    },
+                    {
+                        "type": "text",
+                        "content": "和l，就可以算出 "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "f ^ { \\prime }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "′。由于通过透镜两次成像而求得的 "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "f ^ { \\prime }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "′,这种方法称为二次成像法或贝塞尔法。这种方法无需考虑透镜厚度，因此用这种方法测出的焦距一般较为准确。"
+                    }
+                ]
+            },
+            "bbox": [
+                144,
+                569,
+                848,
+                631
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "【实验内容】"
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                152,
+                662,
+                250,
+                678
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "1、光路搭建与调试"
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                147,
+                684,
+                302,
+                700
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "如图2搭建二次成像测量透镜焦距光路，自左向右依次为“F”形状LED 光源，待测透镜（直径 "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "5 0 \\mathrm { m m }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "，焦距 "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "1 5 0 \\mathrm { m m }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "），白屏。"
+                    }
+                ]
+            },
+            "bbox": [
+                144,
+                708,
+                848,
+                746
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/47129aee1ec023803a57ba36e5abb709580f0677a9376ff28c1f7fa484fa878a.jpg"
+                },
+                "image_caption": [
+                    {
+                        "type": "text",
+                        "content": "图 2 二次成像测量透镜焦距光路图"
+                    }
+                ],
+                "image_footnote": []
+            },
+            "bbox": [
+                252,
+                750,
+                744,
+                863
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "（1）安装“F”形状 LED光源在导轨上。"
+                    }
+                ]
+            },
+            "bbox": [
+                171,
+                890,
+                485,
+                904
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "3 "
+                    }
+                ]
+            },
+            "bbox": [
+                492,
+                916,
+                502,
+                926
+            ]
+        }
+    ],
+    [
+        {
+            "type": "list",
+            "content": {
+                "list_type": "text_list",
+                "list_items": [
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "（2）安装待测透镜。在目标物后安装待测透镜，并调整透镜位置让“F 形”光斑入射到待测透镜中心。"
+                            }
+                        ]
+                    },
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "（5）安装白屏。调整白屏与目标物之间的距离不小于 "
+                            },
+                            {
+                                "type": "equation_inline",
+                                "content": "6 0 0 \\mathrm { m m }"
+                            },
+                            {
+                                "type": "text",
+                                "content": "（目标板与分划板之间的距离 "
+                            },
+                            {
+                                "type": "equation_inline",
+                                "content": "l > 4 f ^ { \\prime }"
+                            },
+                            {
+                                "type": "text",
+                                "content": "）。"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "bbox": [
+                144,
+                87,
+                847,
+                173
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "2、结果记录及数据处理"
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                144,
+                204,
+                337,
+                219
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "（1）待测透镜从目标板位置向白屏方向移动，可以观察到两次清晰成像的位置，分别记录待测透镜的位置 "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "a _ { 1 }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "、 "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "a _ { 2 }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "，透镜两次距离 "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "d = a _ { 2 } - a _ { 1 }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "。同时测量目标板到白屏的距离l，分别填入表 2，并利用 f ' = "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "f ^ { \\prime } { = } \\frac { l ^ { 2 } - d ^ { 2 } } { 4 l }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "，计算透镜焦距。"
+                    }
+                ]
+            },
+            "bbox": [
+                144,
+                227,
+                847,
+                305
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "（2）重复3次实验，计算焦距，取平均值。"
+                    }
+                ]
+            },
+            "bbox": [
+                171,
+                311,
+                502,
+                326
+            ]
+        },
+        {
+            "type": "table",
+            "content": {
+                "image_source": {
+                    "path": "images/40ecde712e1694d02fc2a2ca9f816b352818ce6af296c79001368f727b828602.jpg"
+                },
+                "table_caption": [
+                    {
+                        "type": "text",
+                        "content": "表 2 二次成像测量透镜焦距记录表"
+                    }
+                ],
+                "table_footnote": [],
+                "html": "<table><tr><td>测量次数</td><td>第一次清晰成像位置a1</td><td>第二次清晰成像位置a2</td><td>目标到白屏距离l</td><td>透镜焦距</td></tr><tr><td>1</td><td></td><td></td><td></td><td></td></tr><tr><td>2</td><td></td><td></td><td></td><td></td></tr><tr><td>3</td><td></td><td></td><td></td><td></td></tr></table>",
+                "table_type": "simple_table",
+                "table_nest_level": 1
+            },
+            "bbox": [
+                159,
+                375,
+                818,
+                494
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "4 "
+                    }
+                ]
+            },
+            "bbox": [
+                492,
+                916,
+                502,
+                926
+            ]
+        }
+    ],
+    [
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "测量方法三： 焦距仪测量薄透镜焦距实验"
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                275,
+                93,
+                722,
+                112
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "平行光管是一种长焦距、大口径，并具有良好像质的仪器。它与前置镜或测量显微镜组合使用，既可用于观察、瞄准无穷远目标，又可作光学部件，光学系统的光学常数测定以及成像质量的评定和检测。"
+                    }
+                ]
+            },
+            "bbox": [
+                147,
+                148,
+                848,
+                210
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "【实验目的】"
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                152,
+                241,
+                250,
+                255
+            ]
+        },
+        {
+            "type": "list",
+            "content": {
+                "list_type": "text_list",
+                "list_items": [
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "1、了解平行光管的结构及工作原理。"
+                            }
+                        ]
+                    },
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "2、掌握平行光管的光路调节方法。"
+                            }
+                        ]
+                    },
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "3、学会用平行光管测量薄透镜的焦距。"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "bbox": [
+                163,
+                263,
+                467,
+                325
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "【实验仪器】"
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                152,
+                357,
+                250,
+                372
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "LED 光源、平行光管（安装目标板）、被测透镜（ "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\Phi 4 0"
+                    },
+                    {
+                        "type": "text",
+                        "content": "， "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\mathrm { f } 2 0 0 \\mathrm { m m }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "）、CMOS 相机"
+                    }
+                ]
+            },
+            "bbox": [
+                144,
+                380,
+                763,
+                395
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "【实验原理】"
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                152,
+                426,
+                250,
+                441
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "根据几何光学原理，无限远处的物体经过透镜后将成像在焦平面上；反之，从透镜焦平面上发出的光线经透镜后将成为一束平行光。如果将一个物体放在透镜的焦平面上，那么它将成像在无限远处。"
+                    }
+                ]
+            },
+            "bbox": [
+                144,
+                449,
+                848,
+                511
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "图1 （a）为平行光管的结构原理图。它由物镜及置于物镜焦平面上的分划板，光源以及为使分划板被均匀照亮而设置的毛玻璃组成。由于分划板置于物镜的焦平面上，因此，当光源照亮分划板后，分划板上每一点发出的光经过透镜后都成为一束平行光。又由于分划板上有根据需要而刻成的分划线或图案（如图1（b）所示），这些刻线或图案将成像在无限远处。这样，对观察者而言，分划板相当于一个无限远距离的目标。"
+                    }
+                ]
+            },
+            "bbox": [
+                144,
+                519,
+                848,
+                627
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/98a6f653d4bde9b8b415fbd457fb51e0c18dfcb5421349be9e9cf951451aa21a.jpg"
+                },
+                "image_caption": [
+                    {
+                        "type": "text",
+                        "content": "（a）"
+                    }
+                ],
+                "image_footnote": []
+            },
+            "bbox": [
+                154,
+                637,
+                552,
+                738
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/a4af5436fbfa87fb3f10829d9c9cf747a8139fb980403debd538c13ad1ca0fb3.jpg"
+                },
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "bbox": [
+                598,
+                675,
+                670,
+                725
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/eb47543925125175ff4360dc4becbe9515a5061c42cfabff35ca8afc5e8ac969.jpg"
+                },
+                "image_caption": [
+                    {
+                        "type": "text",
+                        "content": "b "
+                    }
+                ],
+                "image_footnote": []
+            },
+            "bbox": [
+                684,
+                675,
+                754,
+                725
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/eec4b71d88823a1294519d54a8835aeeb90a25ecf37a01092f438ec587f7a393.jpg"
+                },
+                "image_caption": [
+                    {
+                        "type": "text",
+                        "content": "（b）"
+                    },
+                    {
+                        "type": "text",
+                        "content": "图 1 平行光管的结构原理图（a）和分划板的几种形式（b）"
+                    }
+                ],
+                "image_footnote": []
+            },
+            "bbox": [
+                768,
+                676,
+                836,
+                725
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "用平行光管法测量凸透镜焦距的光路图如图 2 所示。由光路图 2 中看出 "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\varphi = \\frac { y } { f _ { o } ^ { \\prime } }"
+                    }
+                ]
+            },
+            "bbox": [
+                181,
+                801,
+                818,
+                835
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\tan \\varphi_ {1} ^ {\\prime} = \\frac {y ^ {\\prime}}{f _ {x} ^ {\\prime}}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/373dd185eb0da516e99635856e67b6e7689f79c9d70bdb333926bcf50eeb868f.jpg"
+                }
+            },
+            "bbox": [
+                450,
+                852,
+                544,
+                890
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "5 "
+                    }
+                ]
+            },
+            "bbox": [
+                492,
+                916,
+                502,
+                926
+            ]
+        }
+    ],
+    [
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "平行光管射出的是平行光，且通过透镜光心的光线不改变方向，因此"
+                    }
+                ]
+            },
+            "bbox": [
+                181,
+                85,
+                717,
+                101
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\varphi = \\varphi^ {\\prime} = \\varphi_ {1} = \\varphi_ {1} ^ {\\prime}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/8014c0792e5f24a67282eb6ffcd262b6582f61573777762dd5e9bc3c63a16885.jpg"
+                }
+            },
+            "bbox": [
+                450,
+                112,
+                583,
+                131
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\frac {y}{f _ {o} ^ {\\prime}} = \\frac {y ^ {\\prime}}{f _ {x} ^ {\\prime}}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/882d94390d82c9866ada71fd4f3c8e0c1c45674442a9b783fbdfa7d5bd4bfd56.jpg"
+                }
+            },
+            "bbox": [
+                482,
+                148,
+                554,
+                187
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "f _ {x} = \\frac {y ^ {\\prime}}{y} f _ {o} ^ {\\prime} \\tag {1}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/ae09e65266bd39cd2f51ce42e742b981a587fe550151c40314d6e5b4f14118f2.jpg"
+                }
+            },
+            "bbox": [
+                478,
+                204,
+                840,
+                241
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "其中 "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "f _ { o } ^ { \\prime }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "为平行光管物镜焦距， "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "y"
+                    },
+                    {
+                        "type": "text",
+                        "content": "为玻罗板上选择的线对长度， "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "y ^ { \\prime }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "为用摄像机读出的目标板上线对像的距离。用这种方法测量凸透镜焦距比较简单，关键是要保证各光学元件要等高共轴，平行光管出射平行光。"
+                    }
+                ]
+            },
+            "bbox": [
+                144,
+                260,
+                848,
+                330
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/af2afc1b7d5954b8f8d981e02a161ceaee127eded668dbfe42c6bb03e2493bec.jpg"
+                },
+                "image_caption": [
+                    {
+                        "type": "text",
+                        "content": "图 2 平行光管法测量凸透镜焦距光路图"
+                    }
+                ],
+                "image_footnote": []
+            },
+            "bbox": [
+                275,
+                344,
+                796,
+                532
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "【实验内容】"
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                152,
+                588,
+                253,
+                602
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "1、光路搭建与调试"
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                147,
+                611,
+                302,
+                627
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "参考图3搭建焦距测量实验光路。自左向右依次为LED光源、平行光管（安装目标板）、被测透镜（ "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\Phi 4 0"
+                    },
+                    {
+                        "type": "text",
+                        "content": "， "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "f 2 0 0 \\mathrm { m m }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "）、CMOS相机。"
+                    }
+                ]
+            },
+            "bbox": [
+                144,
+                634,
+                830,
+                674
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/939bbc1936c03bbfa5f90766b59b6f73c71be508cc85f82a990032bde81d83fa.jpg"
+                },
+                "image_caption": [
+                    {
+                        "type": "text",
+                        "content": "图 3 焦距测量光路图"
+                    }
+                ],
+                "image_footnote": []
+            },
+            "bbox": [
+                238,
+                684,
+                776,
+                820
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "（1）安装平行光管。调整平行光管高度并固定，如果平行光管没有使用分划板需要在平行光管前安装分划板。"
+                    }
+                ]
+            },
+            "bbox": [
+                144,
+                852,
+                848,
+                892
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "6 "
+                    }
+                ]
+            },
+            "bbox": [
+                492,
+                916,
+                504,
+                927
+            ]
+        }
+    ],
+    [
+        {
+            "type": "list",
+            "content": {
+                "list_type": "text_list",
+                "list_items": [
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "（2）安装 LED 光源。将匀光器安装在 LED 前面，然后将 LED 摆放到如图 3 所示位置。"
+                            }
+                        ]
+                    },
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "（3）安装待测透镜。实验中选择 "
+                            },
+                            {
+                                "type": "equation_inline",
+                                "content": "\\Phi 4 0"
+                            },
+                            {
+                                "type": "text",
+                                "content": "， "
+                            },
+                            {
+                                "type": "equation_inline",
+                                "content": "f 2 0 0 \\mathrm { m m }"
+                            },
+                            {
+                                "type": "text",
+                                "content": "的待测透镜，待测透镜高度使透镜中心与平行光管透镜中心重合。"
+                            }
+                        ]
+                    },
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "（4）安装 CMOS 相机。调整相机高度与待测透镜相同，然后调整相机前后位置，相机与透镜间距约 "
+                            },
+                            {
+                                "type": "equation_inline",
+                                "content": "1 5 0 \\mathrm { m m }"
+                            },
+                            {
+                                "type": "text",
+                                "content": "，此时可以在相机上看到分划板像。"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "bbox": [
+                144,
+                87,
+                848,
+                195
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "2、实验数据记录"
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                144,
+                204,
+                285,
+                219
+            ]
+        },
+        {
+            "type": "list",
+            "content": {
+                "list_type": "text_list",
+                "list_items": [
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "（1）适当调整相机曝光时间和光源强度，并前后移动相机，保证采集像最清楚，如图 4所示，如果图像采集出现光斑分布不均匀或者偏离中心较大，可以适当调整 LED 照明光源的前后。"
+                            }
+                        ]
+                    },
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "（2）点击相机“停止采集”，并将图像存储到本地。"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "bbox": [
+                144,
+                227,
+                848,
+                311
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/76d1b4d3e394dbddd25ec7ce1dae5b5524b5164b11ccc9e771bba1cf654757dc.jpg"
+                },
+                "image_caption": [
+                    {
+                        "type": "text",
+                        "content": "图 4 分划板像"
+                    }
+                ],
+                "image_footnote": []
+            },
+            "bbox": [
+                336,
+                316,
+                662,
+                501
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "3、软件操作及数据处理"
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                144,
+                527,
+                337,
+                543
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "（1）运行“实验软件\\应用光学实验软件\\焦距测量实验软件\\焦距测量实验软件.EXE”，如图5所示。"
+                    }
+                ]
+            },
+            "bbox": [
+                144,
+                551,
+                836,
+                589
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/af22f952c8116d1ad430795605162f3db59c94967d8882ac3945b6932970e5dd.jpg"
+                },
+                "image_caption": [
+                    {
+                        "type": "text",
+                        "content": "图 5 焦距测量软件截图（单位像素 "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "2 . 9  { \\mu \\mathrm { ~ m ~ } }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "）"
+                    }
+                ],
+                "image_footnote": []
+            },
+            "bbox": [
+                213,
+                596,
+                800,
+                813
+            ]
+        },
+        {
+            "type": "list",
+            "content": {
+                "list_type": "text_list",
+                "list_items": [
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "（2）选择“焦距仪测焦距”，点击“读取图片”读取相应数据图，填写“圆实际大小/物高”为"
+                            },
+                            {
+                                "type": "equation_inline",
+                                "content": "4 \\mathrm { m m }"
+                            },
+                            {
+                                "type": "text",
+                                "content": "（最小线间距 "
+                            },
+                            {
+                                "type": "equation_inline",
+                                "content": "1 \\mathrm { m m }"
+                            },
+                            {
+                                "type": "text",
+                                "content": "，最大线间距 "
+                            },
+                            {
+                                "type": "equation_inline",
+                                "content": "4 \\mathrm { m m }"
+                            },
+                            {
+                                "type": "text",
+                                "content": "）。"
+                            }
+                        ]
+                    },
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "（3）如图5获取最左和最右峰为 P1和P2。"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "bbox": [
+                144,
+                843,
+                847,
+                904
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "7 "
+                    }
+                ]
+            },
+            "bbox": [
+                492,
+                916,
+                502,
+                926
+            ]
+        }
+    ],
+    [
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "（4）将读取的P1，P2的横坐标填入相应位置，点击计算直径即可获得像的大小，填写平行光管的焦距 "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "f 4 0 0 \\mathrm { m m }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "，即可计算待测透镜焦距。"
+                    }
+                ]
+            },
+            "bbox": [
+                144,
+                87,
+                840,
+                127
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "（5）3次测量求取平均值，完成表 1。"
+                    }
+                ]
+            },
+            "bbox": [
+                171,
+                135,
+                460,
+                149
+            ]
+        },
+        {
+            "type": "table",
+            "content": {
+                "image_source": {
+                    "path": "images/c236e80007d1e0420e01cd19507e13554ae6472f02e6c72fb9a11de3d4314e1a.jpg"
+                },
+                "table_caption": [
+                    {
+                        "type": "text",
+                        "content": "表 1 焦距仪测量薄透镜焦距的实验记录表"
+                    }
+                ],
+                "table_footnote": [],
+                "html": "<table><tr><td>测量次数</td><td>1</td><td>2</td><td>3</td><td>平均值（mm）</td></tr><tr><td>透镜1（200mm）</td><td></td><td></td><td></td><td></td></tr><tr><td>透镜2（换 150mm）</td><td></td><td></td><td></td><td></td></tr></table>",
+                "table_type": "simple_table",
+                "table_nest_level": 1
+            },
+            "bbox": [
+                147,
+                198,
+                848,
+                296
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "【思考题】"
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                152,
+                322,
+                233,
+                337
+            ]
+        },
+        {
+            "type": "list",
+            "content": {
+                "list_type": "text_list",
+                "list_items": [
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "1、画出测薄透镜焦距的三种方法的光路图"
+                            }
+                        ]
+                    },
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "2、 比较自准直法、二次成像法以及平行光管测量薄透镜焦距的优势与不足？"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "bbox": [
+                144,
+                344,
+                737,
+                384
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "参考文献："
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                146,
+                414,
+                228,
+                430
+            ]
+        },
+        {
+            "type": "list",
+            "content": {
+                "list_type": "text_list",
+                "list_items": [
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "1、郁道银、谈恒英，《工程光学》，机械工业出版社，2011"
+                            }
+                        ]
+                    },
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "2、姚启钧 著 华东师范大学光学教材编写组改编，光学教程，高等教育出版社，第三版，2002。"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "bbox": [
+                144,
+                438,
+                843,
+                498
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "8 "
+                    }
+                ]
+            },
+            "bbox": [
+                492,
+                916,
+                504,
+                927
+            ]
+        }
+    ]
+]
