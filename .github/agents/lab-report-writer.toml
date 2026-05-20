@@ -1,4 +1,4 @@
-name = "lab_report_writer"
+﻿name = "lab_report_writer"
 description = "Writes complete Chinese physics, optics, or electronics lab reports from local materials, including LaTeX source, data extraction from images, figures, thinking questions, and PDF compilation."
 model = "gpt-5.4"
 model_reasoning_effort = "high"

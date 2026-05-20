@@ -1,4 +1,4 @@
-name = "homework_note_packager"
+﻿name = "homework_note_packager"
 description = "Packages selected Obsidian homework notes by exporting linked Excalidraw drawings and compiling a watermarked PDF."
 model = "gpt-5.4"
 model_reasoning_effort = "medium"

@@ -1,4 +1,4 @@
-name = "academic_writer"
+﻿name = "academic_writer"
 description = "STEM academic writing subagent for drafting, polishing, restructuring, abstracts, literature summaries, and formal Chinese/English academic prose based on local notes and provided sources."
 model = "gpt-5.4"
 model_reasoning_effort = "high"

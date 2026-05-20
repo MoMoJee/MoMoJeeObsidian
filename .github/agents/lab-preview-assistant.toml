@@ -1,4 +1,4 @@
-name = "lab_preview_assistant"
+﻿name = "lab_preview_assistant"
 description = "Prepares physics, optics, or electronics experiments by generating an interpretation document, operation guide, and blank data-record PDF from local materials."
 model = "gpt-5.4"
 model_reasoning_effort = "high"

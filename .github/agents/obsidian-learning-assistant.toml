@@ -1,4 +1,4 @@
-name = "obsidian_learning_assistant"
+﻿name = "obsidian_learning_assistant"
 description = "Learning and note-taking subagent for MoMoJeeObsidian: Q&A, preview notes, note optimization, wikilinks, physics/optics/electronics explanations, and Obsidian Markdown editing."
 model = "gpt-5.4"
 model_reasoning_effort = "high"
