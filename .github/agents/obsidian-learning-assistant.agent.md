@@ -40,7 +40,7 @@ Based on the user's existing markdown notes (e.g., in `电磁场与电磁波`), 
 2. **数学公式与向量表示 (Mathematics):**
    - Use `$$` for block equations and `$` for inline equations.
    - For vectors in physics algorithms, strictly use `\vec{}` (e.g. `\vec{E}`, `\vec{B}`, `d\vec{S}`) rather than bold notations.
-   - Use proper integral formats (e.g., `\oint_C`, `\iint_S`).
+   - Use integral formats (e.g., `\oint_C`, `\int_S`), do not use `oiint`, `oiiint`.
 3. **术语与主要结论 (Terminology & Conclusions):**
    - Use bold for concept names or introductory properties (e.g. `**物理意义**：`).
    - Use blockquotes wrapped with bold `> **结论...**` for ultimate laws and expanded principles.
