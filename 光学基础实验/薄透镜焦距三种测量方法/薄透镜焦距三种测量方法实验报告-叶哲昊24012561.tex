@@ -118,7 +118,7 @@
 
 \begin{figure}[H]
   \centering
-  \includegraphics[width=0.65\textwidth]{images/5bd946e29cc0ed8bfbfc30f7c5d75507c460243a085f4207594b597d5bd533a5.jpg}
+  \includegraphics[width=0.58\textwidth]{光路图/一-自准直法.png}
   \caption{自准直法测凸透镜焦距原理图}
   \label{fig:zizhi-principle}
 \end{figure}
@@ -139,7 +139,7 @@
 
 \begin{figure}[H]
   \centering
-  \includegraphics[width=0.65\textwidth]{images/cadc91086c8355ab655ac4a9f435530095076a2197ba5276d3af1f965c94812a.jpg}
+  \includegraphics[width=0.78\textwidth]{光路图/二-二次成像法.png}
   \caption{二次成像法（贝塞尔法）测凸透镜焦距原理图}
   \label{fig:bessel-principle}
 \end{figure}
@@ -152,6 +152,12 @@ $f_o'$，由下式计算待测透镜焦距：
 \begin{equation}
   f_x' = \frac{y'}{y} f_o' \label{eq:collimator}
 \end{equation}
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.70\textwidth]{光路图/三-平行光管法.png}
+  \caption{平行光管法测凸透镜焦距原理图}
+  \label{fig:collimator-principle}
+\end{figure}
 本次实验由于相关设备（CMOS 相机及配套焦距测量软件）不具备使用条件，平行光管法
 未能实施，故本报告仅含自准直法与二次成像法的实验数据与结果。
 
@@ -384,19 +390,26 @@ $0.4\,\text{mm}$），说明自准直法在本次实验中重复性良好。
 
 三种方法的光路图如下：
 
-\textbf{（1）自准直法}光路：LED 光源（物体）$\longrightarrow$ 凸透镜 $L$（物处于前焦面）
-$\longrightarrow$ 平行光束 $\longrightarrow$ 平面反射镜 $M$（全反射）$\longrightarrow$ 平行光束
-$\longrightarrow$ 透镜 $L$ $\longrightarrow$ 在前焦面（物面）处成倒立等大实像。
-光路示意可参见图~\ref{fig:zizhi-principle}。
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.58\textwidth]{光路图/一-自准直法.png}
+  \caption{自准直法光路图}
+  \label{fig:thinking-zizhi}
+\end{figure}
 
-\textbf{（2）二次成像法（贝塞尔法）}光路：物 $O$（目标板）$\longrightarrow$ 凸透镜 $L$
-（位置 $a_1$ 或 $a_2$）$\longrightarrow$ 白屏（像面）。当物屏距 $l > 4f'$ 时，透镜在
-两个不同位置 $a_1$（放大像）和 $a_2$（缩小像）均可在屏上成清晰像。
-光路示意可参见图~\ref{fig:bessel-principle}。
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.78\textwidth]{光路图/二-二次成像法.png}
+  \caption{二次成像法（贝塞尔法）光路图}
+  \label{fig:thinking-bessel}
+\end{figure}
 
-\textbf{（3）平行光管法}光路：LED 光源 $\longrightarrow$ 平行光管（分划板置于物镜焦平面，
-出射平行光）$\longrightarrow$ 待测凸透镜 $L_x$ $\longrightarrow$ CMOS 相机（在焦面上
-采集分划板像）。由像的大小 $y'$ 和平行光管物镜焦距 $f_o'$ 计算 $f_x' = (y'/y) f_o'$。
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.70\textwidth]{光路图/三-平行光管法.png}
+  \caption{平行光管法光路图}
+  \label{fig:thinking-collimator}
+\end{figure}
 
 \subsection*{思考题 2：比较三种方法测量薄透镜焦距的优势与不足}
 
