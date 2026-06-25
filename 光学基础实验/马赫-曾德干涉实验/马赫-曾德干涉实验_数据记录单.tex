@@ -1,0 +1,133 @@
+\documentclass[12pt, a4paper]{article}
+\usepackage[UTF8, zihao=-4]{ctex}
+\usepackage[top=2.5cm, bottom=2.5cm, left=2.8cm, right=2.8cm]{geometry}
+\usepackage{fontspec}
+\setmainfont{Times New Roman}
+\usepackage{setspace}
+\setstretch{1.5}
+\usepackage{booktabs}
+\usepackage{array}
+\usepackage{makecell}
+\usepackage{multirow}
+\usepackage{adjustbox}
+\usepackage{amsmath, amssymb}
+\usepackage{float}
+\usepackage{caption}
+\usepackage{fancyhdr}
+\setlength{\headheight}{15pt}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[C]{\small 实验数据记录单}
+\fancyfoot[C]{\small\thepage}
+
+\begin{document}
+
+\begin{center}
+  {\heiti\zihao{3} 马赫-曾德干涉实验 \\ 实验数据记录单} \\[1cm]
+  \begin{tabular}{llll}
+    姓\quad 名：& \underline{\hspace{4cm}} &
+    学\quad 号：& \underline{\hspace{4cm}} \\[0.5cm]
+    班\quad 级：& \underline{\hspace{4cm}} &
+    实验日期：  & \underline{\hspace{4cm}} \\[0.5cm]
+    指导教师：  & \underline{\hspace{4cm}} &
+    教师签名：  & \underline{\hspace{4cm}} \\
+  \end{tabular}
+\end{center}
+\vspace{1cm}
+
+\subsection*{一、实验参数记录}
+\begin{table}[H]
+  \centering
+  \begin{adjustbox}{max width=\textwidth}
+    \begin{tabular}{cccc}
+      \toprule
+      激光波长 $\lambda$/nm & 气室长度 $L$ & 室温 $t$/$^\circ$C & 标准大气压 $p$ \\
+      \midrule
+      632.8 & & & \\
+      \bottomrule
+    \end{tabular}
+  \end{adjustbox}
+\end{table}
+{\footnotesize 记录说明：除激光波长外，其余参数按现场仪器或教师要求填写；计算前需统一单位。}
+
+\subsection*{二、光路调节检查}
+\begin{table}[H]
+  \centering
+  \begin{adjustbox}{max width=\textwidth}
+    \begin{tabular}{p{0.36\textwidth}p{0.52\textwidth}}
+      \toprule
+      检查项目 & 现场记录 \\
+      \midrule
+      激光近处、远处均过 2 mm 光阑中心 & \\
+      空间滤波后光斑均匀，衍射环明显减弱或消失 & \\
+      准直后近处、远处光斑大小基本不变 & \\
+      两臂光程基本相等，光束高度一致 & \\
+      合束后近处、远处两光斑均重合 & \\
+      干涉条纹清晰且不过曝 & \\
+      \bottomrule
+    \end{tabular}
+  \end{adjustbox}
+\end{table}
+
+\subsection*{三、光学平台稳定性观察}
+\begin{table}[H]
+  \centering
+  \begin{adjustbox}{max width=\textwidth}
+    \begin{tabular}{ccc}
+      \toprule
+      扰动方式 & 条纹变化现象 & 恢复情况 \\
+      \midrule
+      自然静置 & & \\
+      轻拍平台 & & \\
+      台旁地面跳动 & & \\
+      \bottomrule
+    \end{tabular}
+  \end{adjustbox}
+\end{table}
+
+\subsection*{四、空气折射率测量数据}
+\begin{table}[H]
+  \centering
+  \begin{adjustbox}{max width=\textwidth}
+    \begin{tabular}{c*{9}{>{\centering\arraybackslash}p{1.35cm}}}
+      \toprule
+      序号 & 1 & 2 & 3 & 4 & 5 & 6 & 7 & 8 & 9 \\
+      \midrule
+      气压值/mmHg & & & & & & & & & \\
+      条纹移动条数/个 & & & & & & & & & \\
+      \bottomrule
+    \end{tabular}
+  \end{adjustbox}
+\end{table}
+{\footnotesize 记录说明：建议缓慢放气并记录累计条纹移动数；若记录相邻变化量，应在备注中说明。}
+
+\subsection*{五、计算记录}
+\noindent 采用公式：
+\[
+  n = 1 + \frac{\lambda}{L}\frac{\Delta K}{\Delta p}p
+\]
+
+\vspace{0.4cm}
+\noindent 取用的数据点或拟合方法：
+
+\vspace{1.2cm}
+
+\noindent $\Delta K=$\underline{\hspace{3cm}}\quad
+$\Delta p=$\underline{\hspace{3cm}}\quad
+$\dfrac{\Delta K}{\Delta p}=$\underline{\hspace{3cm}}
+
+\vspace{1cm}
+
+\noindent 空气折射率实验值：$n=$\underline{\hspace{5cm}}
+
+\vspace{0.8cm}
+
+\noindent 与理论值比较及误差分析：
+
+\vspace{2.2cm}
+
+\noindent 备注：
+
+\vspace{1.5cm}
+
+\end{document}

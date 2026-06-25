@@ -1,0 +1,11 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "default_agent": "obsidian-learning-assistant",
+  "agent": {
+    "obsidian-learning-assistant": { "description": "Obsidian 学习助手 - 答疑、生成预习笔记、整理优化笔记", "mode": "primary" },
+    "academic-writer": { "description": "STEM 学术写作与润色", "mode": "primary" },
+    "lab-preview-assistant": { "description": "实验预习助手 - 生成解读、操作指导与数据记录单", "mode": "primary" },
+    "lab-report-writer": { "description": "实验报告写作 - 撰写 LaTeX 实验报告", "mode": "primary" },
+    "homework-note-packager": { "description": "作业笔记打包 - Excalidraw 导出与 PDF 打包", "mode": "primary" }
+  }
+}

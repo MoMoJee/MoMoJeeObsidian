@@ -1,0 +1,87 @@
+\documentclass[12pt, a4paper]{article}
+\usepackage[UTF8, zihao=-4]{ctex}
+\usepackage[top=2.5cm, bottom=2.5cm, left=2.8cm, right=2.8cm]{geometry}
+\usepackage{fontspec}
+\setmainfont{Times New Roman}
+\usepackage{setspace}
+\setstretch{1.5}
+\usepackage{booktabs}
+\usepackage{array}
+\usepackage{makecell}
+\usepackage{multirow}
+\usepackage{adjustbox}
+\usepackage{amsmath, amssymb}
+\usepackage{float}
+\usepackage{caption}
+\usepackage{fancyhdr}
+\setlength{\headheight}{15pt}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[C]{\small 实验数据记录单}
+\fancyfoot[C]{\small\thepage}
+
+\begin{document}
+
+\begin{center}
+  {\heiti\zihao{3} 刀口阴影法测量光学系统像差综合实验 \\ 实验数据记录单} \\[1cm]
+  \begin{tabular}{llll}
+    姓\quad 名：& \underline{\hspace{4cm}} &
+    学\quad 号：& \underline{\hspace{4cm}} \\[0.5cm]
+    班\quad 级：& \underline{\hspace{4cm}} &
+    实验日期：  & \underline{\hspace{4cm}} \\[0.5cm]
+    指导教师：  & \underline{\hspace{4cm}} &
+    教师签名：  & \underline{\hspace{4cm}} \\
+  \end{tabular}
+\end{center}
+\vspace{1cm}
+
+\subsection*{表 1 \quad 红色光源轴向球差（环带光测试法）}
+\begin{table}[H]
+  \centering
+  \begin{adjustbox}{max width=\textwidth}
+    \begin{tabular}{cccc}
+      \toprule
+      次数 & $X_1$/mm & $X_2$/mm & 轴向球差 $\Delta X=X_2-X_1$/mm \\
+      \midrule
+      1 & & & \\
+      2 & & & \\
+      3 & & & \\
+      \midrule
+      平均值 & & & \\
+      \bottomrule
+    \end{tabular}
+  \end{adjustbox}
+\end{table}
+{\footnotesize 记录说明：$X_1$ 为最小环带光阑对应的会聚位置读数，$X_2$ 为中号环带光阑对应的会聚位置读数。读数单位统一为 mm。}
+
+\vspace{0.8cm}
+
+\subsection*{表 2 \quad 透镜像散数据记录}
+\begin{table}[H]
+  \centering
+  \begin{adjustbox}{max width=\textwidth}
+    \begin{tabular}{cccc}
+      \toprule
+      旋转角度 & $X_1$/mm & $X_2$/mm & 透镜像散 $\Delta X=X_2-X_1$/mm \\
+      \midrule
+      10$^\circ$ & & & \\
+      20$^\circ$ & & & \\
+      30$^\circ$ & & & \\
+      \midrule
+      平均值 & & & \\
+      \bottomrule
+    \end{tabular}
+  \end{adjustbox}
+\end{table}
+{\footnotesize 记录说明：$X_1$、$X_2$ 分别对应两条互相垂直焦线的轴向位置。调节螺旋丝杆时不要超出其调节范围。}
+
+\vspace{1cm}
+\noindent\textbf{简要现象记录：}
+
+\vspace{2cm}
+
+\noindent\textbf{误差来源记录：}
+
+\vspace{2cm}
+
+\end{document}

@@ -1,0 +1,141 @@
+\documentclass[12pt, a4paper]{article}
+\usepackage[UTF8, zihao=-4]{ctex}
+\usepackage[top=2.5cm, bottom=2.5cm, left=2.8cm, right=2.8cm]{geometry}
+\usepackage{fontspec}
+\setmainfont{Times New Roman}
+\usepackage{setspace}
+\setstretch{1.5}
+\usepackage{booktabs}
+\usepackage{array}
+\usepackage{makecell}
+\usepackage{multirow}
+\usepackage{adjustbox}
+\usepackage{amsmath, amssymb}
+\usepackage{float}
+\usepackage{caption}
+\usepackage{fancyhdr}
+\setlength{\headheight}{15pt}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[C]{\small 实验数据记录单}
+\fancyfoot[C]{\small\thepage}
+
+\begin{document}
+
+\begin{center}
+  {\heiti\zihao{3} 星点法测量透镜像差综合实验 \\ 实验数据记录单} \\[1cm]
+  \begin{tabular}{llll}
+    姓\quad 名：& \underline{\hspace{4cm}} &
+    学\quad 号：& \underline{\hspace{4cm}} \\[0.5cm]
+    班\quad 级：& \underline{\hspace{4cm}} &
+    实验日期：  & \underline{\hspace{4cm}} \\[0.5cm]
+    指导教师：  & \underline{\hspace{4cm}} &
+    教师签名：  & \underline{\hspace{4cm}} \\
+  \end{tabular}
+\end{center}
+\vspace{1cm}
+
+\subsection*{表 1 \quad 位置色差记录}
+\begin{table}[H]
+  \centering
+  \begin{adjustbox}{max width=\textwidth}
+    \begin{tabular}{cccc}
+      \toprule
+      次数 & 蓝光焦点 $X_1$/mm & 红光焦点 $X_2$/mm & 位置色差 $\Delta X=X_2-X_1$/mm \\
+      \midrule
+      1 & & & \\
+      2 & & & \\
+      3 & & & \\
+      \midrule
+      平均值 & & & \\
+      \bottomrule
+    \end{tabular}
+  \end{adjustbox}
+\end{table}
+{\footnotesize 记录说明：蓝光 LED 波长 451 nm，红光 LED 波长 690 nm；测量色差时应保持同一环带光阑。}
+
+\vspace{0.6cm}
+
+\subsection*{表 2 \quad 倍率色差记录}
+\begin{table}[H]
+  \centering
+  \begin{adjustbox}{max width=\textwidth}
+    \begin{tabular}{ccccc}
+      \toprule
+      次数 & $b$/pixel & $c$/pixel & $c-b$/pixel & 倍率色差 $2.9(c-b)$/$\mu\mathrm{m}$ \\
+      \midrule
+      1 & & & & \\
+      2 & & & & \\
+      3 & & & & \\
+      \midrule
+      平均值 & & & & \\
+      \bottomrule
+    \end{tabular}
+  \end{adjustbox}
+\end{table}
+{\footnotesize 记录说明：CMOS 单个像素大小为 2.9 $\mu\mathrm{m}$。}
+
+\subsection*{表 3 \quad 红色光源轴向球差记录}
+\begin{table}[H]
+  \centering
+  \begin{adjustbox}{max width=\textwidth}
+    \begin{tabular}{cccc}
+      \toprule
+      次数 & 最小环带焦点 $X_1$/mm & 大号环带焦点 $X_2$/mm & 轴向球差 $\Delta X=X_2-X_1$/mm \\
+      \midrule
+      1 & & & \\
+      2 & & & \\
+      3 & & & \\
+      \midrule
+      平均值 & & & \\
+      \bottomrule
+    \end{tabular}
+  \end{adjustbox}
+\end{table}
+
+\subsection*{表 4 \quad 红色光源垂轴球差记录}
+\begin{table}[H]
+  \centering
+  \begin{adjustbox}{max width=\textwidth}
+    \begin{tabular}{ccccc}
+      \toprule
+      次数 & $b$/pixel & $c$/pixel & $c-b$/pixel & 垂轴球差 $2.9(c-b)$/$\mu\mathrm{m}$ \\
+      \midrule
+      1 & & & & \\
+      2 & & & & \\
+      3 & & & & \\
+      \midrule
+      平均值 & & & & \\
+      \bottomrule
+    \end{tabular}
+  \end{adjustbox}
+\end{table}
+{\footnotesize 记录说明：垂轴球差由 CMOS 像素坐标差换算，像素尺寸为 2.9 $\mu\mathrm{m}$。}
+
+\subsection*{表 5 \quad 像散数据记录}
+\begin{table}[H]
+  \centering
+  \begin{adjustbox}{max width=\textwidth}
+    \begin{tabular}{cccc}
+      \toprule
+      次数 & $X_1$/mm & $X_2$/mm & 透镜像散 $\Delta X=X_2-X_1$/mm \\
+      \midrule
+      1 & & & \\
+      2 & & & \\
+      3 & & & \\
+      \midrule
+      平均值 & & & \\
+      \bottomrule
+    \end{tabular}
+  \end{adjustbox}
+\end{table}
+
+\noindent\textbf{慧差观察记录：}
+
+\vspace{2cm}
+
+\noindent\textbf{其它现象与误差来源记录：}
+
+\vspace{2cm}
+
+\end{document}
