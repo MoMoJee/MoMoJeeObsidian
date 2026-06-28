@@ -1,4 +1,4 @@
-﻿---
+---
 name: lab-report-writing
 description: Use when writing a Chinese physics, optics, or electronics lab report from local experiment materials, generating a XeLaTeX source file, extracting data from images, inserting figures, answering thinking questions, and compiling a GB/T 7713.1 style PDF.
 ---
