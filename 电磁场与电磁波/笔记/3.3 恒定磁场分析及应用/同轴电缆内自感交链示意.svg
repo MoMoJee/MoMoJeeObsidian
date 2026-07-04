@@ -1,0 +1,108 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760">
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L8,3 L0,6 Z" fill="#222"/>
+    </marker>
+    <marker id="blueArrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L8,3 L0,6 Z" fill="#1463ff"/>
+    </marker>
+    <marker id="redArrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L8,3 L0,6 Z" fill="#c7352b"/>
+    </marker>
+    <style>
+      .title { font: 700 28px "Microsoft YaHei", "Noto Sans CJK SC", Arial, sans-serif; fill: #111; }
+      .h2 { font: 700 21px "Microsoft YaHei", "Noto Sans CJK SC", Arial, sans-serif; fill: #111; }
+      .txt { font: 18px "Microsoft YaHei", "Noto Sans CJK SC", Arial, sans-serif; fill: #222; }
+      .small { font: 15px "Microsoft YaHei", "Noto Sans CJK SC", Arial, sans-serif; fill: #333; }
+      .math { font: 18px "Times New Roman", "Microsoft YaHei", serif; fill: #111; }
+      .wire { stroke: #222; stroke-width: 3; fill: none; }
+      .inner { fill: #f5c16c; stroke: #9a650f; stroke-width: 3; }
+      .outer { fill: none; stroke: #58616f; stroke-width: 18; }
+      .flux { stroke: #1463ff; stroke-width: 3; fill: none; marker-end: url(#blueArrow); }
+      .curr { stroke: #c7352b; stroke-width: 4; fill: none; marker-end: url(#redArrow); }
+      .dash { stroke-dasharray: 7 7; }
+    </style>
+  </defs>
+
+  <rect x="0" y="0" width="1200" height="760" fill="#fff"/>
+  <text x="46" y="48" class="title">同轴电缆内自感：内部磁通到底和哪些电流丝交链？</text>
+
+  <!-- Left panel: longitudinal surface -->
+  <rect x="42" y="86" width="532" height="600" rx="10" fill="#fbfbfb" stroke="#d8d8d8"/>
+  <text x="68" y="126" class="h2">1. 真正的电流回路：一根内导体电流丝 + 外导体回流</text>
+
+  <!-- axis / conductors in side view -->
+  <line x1="126" y1="190" x2="126" y2="560" stroke="#b0b0b0" stroke-width="2"/>
+  <rect x="178" y="180" width="78" height="390" rx="18" fill="#f5c16c" stroke="#9a650f" stroke-width="3"/>
+  <rect x="420" y="180" width="54" height="390" rx="13" fill="#e6e9ee" stroke="#58616f" stroke-width="3"/>
+  <text x="178" y="166" class="small">内导体截面中的一根电流丝</text>
+  <text x="407" y="166" class="small">外导体回流</text>
+  <text x="276" y="360" class="small">径向-轴向面</text>
+  <text x="278" y="384" class="small">磁通穿过这里</text>
+
+  <!-- current loop arrows -->
+  <line x1="217" y1="548" x2="217" y2="215" class="curr"/>
+  <line x1="447" y1="210" x2="447" y2="540" class="curr"/>
+  <line x1="217" y1="548" x2="447" y2="548" class="curr" marker-end="url(#redArrow)"/>
+  <line x1="447" y1="210" x2="217" y2="210" class="curr" marker-end="url(#redArrow)"/>
+  <text x="104" y="210" class="math">+z</text>
+  <text x="196" y="602" class="small">这个闭合回路围住的是一张径向 × 轴向的面</text>
+
+  <!-- flux through longitudinal surface -->
+  <path d="M302 270 C336 245, 376 245, 406 270" class="flux"/>
+  <path d="M302 330 C336 305, 376 305, 406 330" class="flux"/>
+  <path d="M302 390 C336 365, 376 365, 406 390" class="flux"/>
+  <path d="M302 450 C336 425, 376 425, 406 450" class="flux"/>
+  <text x="303" y="250" class="small" fill="#1463ff">B 为环向，穿过这张面</text>
+  <text x="70" y="646" class="txt">所以这里的“交链”，不是横截面圆环图像，</text>
+  <text x="70" y="674" class="txt">而是磁通穿过该电流丝与外导体回流围成的面。</text>
+
+  <!-- Right panel: cross section -->
+  <rect x="626" y="86" width="532" height="600" rx="10" fill="#fbfbfb" stroke="#d8d8d8"/>
+  <text x="652" y="126" class="h2">2. 为什么是半径 ρ 以内的所有电流丝？</text>
+
+  <!-- cross-section circles -->
+  <circle cx="890" cy="370" r="156" class="outer"/>
+  <circle cx="890" cy="370" r="112" class="inner"/>
+  <circle cx="890" cy="370" r="70" fill="#f9db9e" stroke="#c7352b" stroke-width="3"/>
+  <circle cx="890" cy="370" r="4" fill="#222"/>
+  <line x1="890" y1="370" x2="960" y2="370" stroke="#c7352b" stroke-width="3" marker-end="url(#redArrow)"/>
+  <line x1="890" y1="370" x2="1002" y2="370" stroke="#9a650f" stroke-width="2" class="dash"/>
+  <text x="930" y="354" class="math">ρ</text>
+  <text x="1008" y="374" class="math">a</text>
+  <text x="813" y="372" class="small">半径 ρ 以内的电流</text>
+  <text x="825" y="394" class="math">I(ρ)=I·ρ²/a²</text>
+
+  <!-- current dots -->
+  <g fill="#c7352b">
+    <circle cx="864" cy="328" r="5"/>
+    <circle cx="916" cy="335" r="5"/>
+    <circle cx="850" cy="379" r="5"/>
+    <circle cx="907" cy="407" r="5"/>
+    <circle cx="884" cy="360" r="5"/>
+  </g>
+  <g fill="#9a650f">
+    <circle cx="960" cy="306" r="5"/>
+    <circle cx="974" cy="424" r="5"/>
+    <circle cx="814" cy="442" r="5"/>
+    <circle cx="799" cy="312" r="5"/>
+  </g>
+
+  <!-- flux annulus arrow -->
+  <path d="M1016 370 C1016 300, 970 244, 902 232" class="flux"/>
+  <path d="M902 232 C828 220, 762 264, 742 336" class="flux"/>
+  <text x="997" y="246" class="small" fill="#1463ff">半径 ρ 处的一小片内部磁通 dΦᵢ</text>
+
+  <!-- explanation callouts -->
+  <line x1="826" y1="370" x2="688" y2="250" stroke="#333" stroke-width="2" marker-end="url(#arrow)"/>
+  <text x="654" y="210" class="txt">半径小于 ρ 的电流丝：</text>
+  <text x="654" y="238" class="txt">它们和外导体回流形成的回路</text>
+  <text x="654" y="266" class="txt">会把 0 到 ρ 的内部磁通包住。</text>
+
+  <line x1="980" y1="424" x2="1108" y2="520" stroke="#333" stroke-width="2" marker-end="url(#arrow)"/>
+  <text x="822" y="588" class="txt">半径大于 ρ 的电流丝：</text>
+  <text x="822" y="616" class="txt">它的回路在 dΦᵢ 外侧，不包住这片磁通。</text>
+
+  <text x="650" y="656" class="txt">所以 dΦᵢ 的等效交链比例是内部电流占比：</text>
+  <text x="650" y="684" class="math">N = I(ρ)/I = ρ²/a²，而不是单独“ρ 处那一根”。</text>
+</svg>
