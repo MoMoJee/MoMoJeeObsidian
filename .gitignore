@@ -30,6 +30,7 @@ db.sqlite3
 /.venv/
 /linux_venv/
 **/tmp/
+/打包输出
 
 __pycache__
 node_modules/
