@@ -33,7 +33,7 @@ db.sqlite3
 /打包输出
 
 __pycache__
-node_modules/
+**/node_modules/
 
 # 开发文档 (本地保留)
 TEST_ACCOUNT.md
